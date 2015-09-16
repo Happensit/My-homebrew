@@ -23,11 +23,15 @@ curl -Lo /usr/local/etc/nginx/nginx.conf https://raw.githubusercontent.com/Happe
 curl -Lo /usr/local/etc/nginx/common/php https://raw.githubusercontent.com/Happensit/Homebrew-getlooky/master/conf/nginx/common/php
 curl -Lo /usr/local/etc/nginx/common/drupal https://raw.githubusercontent.com/Happensit/Homebrew-getlooky/master/conf/nginx/common/drupal
 
+
 # Download Virtual Hosts.
 curl -Lo /usr/local/etc/nginx/sites-available/default https://raw.githubusercontent.com/Happensit/Homebrew-getlooky/master/conf/nginx/sites-available/default
 curl -Lo /usr/local/etc/nginx/sites-available/drupal.dev https://raw.githubusercontent.com/Happensit/Homebrew-getlooky/master/conf/nginx/sites-available/drupal.dev
+curl -Lo /usr/local/etc/nginx/sites-available/drupal.dev https://raw.githubusercontent.com/Happensit/Homebrew-getlooky/master/conf/nginx/sites-available/getlooky.dev
 
 ln -s /usr/local/etc/nginx/sites-available/default /usr/local/etc/nginx/sites-enabled/default
+ln -s /usr/local/etc/nginx/sites-available/getlooky.dev /usr/local/etc/nginx/sites-enabled/getlooky.dev
+
 
 # Create folder for logs.
 rm -rf /usr/local/var/log/{fpm,nginx}
