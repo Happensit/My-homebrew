@@ -1,7 +1,7 @@
 server {
     listen       80;
     server_name  drupal.dev;
-    root /Users/mrded/Sites/drupal;
+    root /Users/Happensit/Sites/Getlooky/Drupal;
 
     #access_log /usr/local/var/log/nginx/drupal.access.log;
     #error_log  /usr/local/var/log/nginx/drupal.error.log;
