@@ -42,7 +42,7 @@ Change name and path to site:
 Enable virtual host:
 `ln -s /usr/local/etc/nginx/sites-available/mysite.local /usr/local/etc/nginx/sites-enabled/mysite.local`
 
-Add `127.0.0.1 mysite.local` to `/etc/hosts`.
+Add `127.0.0.1 mysite.dev` to `/etc/hosts`.
 
 ## Enable Xhprof with Drupal 7
 
