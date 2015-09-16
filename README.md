@@ -33,10 +33,19 @@ Change name and path to site:
       server_name  mysite.local;
       root /Users/Happensit/Sites/customsite;
 
+      location / {
+        try_files $uri @rewrite;
+        index  index.html index.htm index.php;
+      }
+
+      location @rewrite {
+              rewrite ^/(.*)$ /index.php?q=$1;
+      }
+
       access_log /usr/local/var/log/nginx/customsite.access.log;
       error_log  /usr/local/var/log/nginx/customsite.error.log;
 
-      include /usr/local/etc/nginx/common/drupal;
+      include /usr/local/etc/nginx/common/php;
     }
 
 Enable virtual host:
