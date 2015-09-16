@@ -1,6 +1,6 @@
 server {
     listen       80;
-    server_name  drupal.local;
+    server_name  drupal.dev;
     root /Users/mrded/Sites/drupal;
 
     #access_log /usr/local/var/log/nginx/drupal.access.log;

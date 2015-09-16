@@ -1,6 +1,6 @@
 server {
     listen       80;
-    server_name  xhprof.local;
+    server_name  xhprof.dev;
     root         /usr/local/Cellar/php56-xhprof/254eb24/xhprof_html;
 
     include      /usr/local/etc/nginx/common/php;
