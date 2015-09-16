@@ -2,7 +2,7 @@
 
 Native way to setup web environment for Mac.
 
-![brew-emp](brew-emp.png)
+![brew-emp](brew.png)
 
 ## Overview
 
