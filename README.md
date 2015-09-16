@@ -22,10 +22,10 @@ This script will install and setup **Nginx** + **MySQL** + **PHP** through **Hom
 For example let's create virtual host for Drupal 'mysite'.
 
 Copy Drupal preset:
-`cp /usr/local/etc/nginx/sites-available/drupal.local /usr/local/etc/nginx/sites-available/mysite.local`
+`cp /usr/local/etc/nginx/sites-available/drupal.dev /usr/local/etc/nginx/sites-available/mysite.dev`
     
 Change name and path to site: 
-`vim /usr/local/etc/nginx/sites-available/mysite.local`
+`vim /usr/local/etc/nginx/sites-available/mysite.dev`
     
     
     server {
@@ -40,7 +40,7 @@ Change name and path to site:
     }
 
 Enable virtual host:
-`ln -s /usr/local/etc/nginx/sites-available/mysite.local /usr/local/etc/nginx/sites-enabled/mysite.local`
+`ln -s /usr/local/etc/nginx/sites-available/mysite.dev /usr/local/etc/nginx/sites-enabled/mysite.dev`
 
 Add `127.0.0.1 mysite.dev` to `/etc/hosts`.
 
