@@ -22,7 +22,7 @@ This script will install and setup **Nginx** + **MySQL** + **PHP** + **Redis** +
 For example let's create virtual host for Drupal 'customsite'.
 
 Copy Drupal preset:
-`cp /usr/local/etc/nginx/sites-available/getlooky.dev /usr/local/etc/nginx/sites-available/customsite.dev`
+`cp /usr/local/etc/nginx/sites-available/drupal.dev /usr/local/etc/nginx/sites-available/customsite.dev`
     
 Change name and path to site: 
 `vim /usr/local/etc/nginx/sites-available/customsite.dev`
