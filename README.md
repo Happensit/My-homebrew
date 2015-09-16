@@ -10,7 +10,7 @@ This script will install and setup **Nginx** + **MySQL** + **PHP** through **Hom
 
 ## Requirements
 
-* [Homebrew](https://github.com/Happensit/Homebrew-getlooky)
+* [Homebrew](http://mxcl.github.com/homebrew/)
  
 ## Installation
 `curl -L https://raw.github.com/Happensit/Homebrew-getlooky/master/install.sh | bash`
