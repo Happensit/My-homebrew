@@ -2,8 +2,6 @@
 
 Native way to setup web environment for Mac.
 
-![brew-emp](brew.png)
-
 ## Overview
 
 This script will install and setup **Nginx** + **MySQL** + **PHP** + **Redis** + **Composer** + **Drush** through **Homebrew**.
