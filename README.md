@@ -11,7 +11,7 @@ This script will install and setup **Nginx** + **MySQL** + **PHP** + **Redis** +
 * [Homebrew](http://mxcl.github.com/homebrew/)
  
 ## Installation
-`curl -L https://raw.github.com/Happensit/Homebrew-getlooky/master/install.sh | bash`
+`curl -L https://raw.github.com/Happensit/My-homebrew/master/install.sh | bash`
 
 ## Usage
 `getlooky [start | stop]`
